@@ -27,7 +27,7 @@ void rem_dup(char* str)
 int main()
 {
     char* inp = "aabbccdd";
-    for (auto x:inp)
+    while (*inp++ != '\0')
         cout << x ;
     cout << endl;
 }
