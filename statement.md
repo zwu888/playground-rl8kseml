@@ -28,6 +28,11 @@ int main()
 {
     char* inp = "aabbccdd";
     while (*inp++ != '\0')
-        cout << x ;
+        cout << *inp ;
     cout << endl;
+    rem_dup(inp);
+    while (*inp++ != '\0')
+        cout << *inp ;
+    cout << endl;
+    
 }
